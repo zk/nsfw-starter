@@ -21,6 +21,8 @@ cd <project name>
 bin/dev
 ```
 
+Don't forget to modify this README with your app specific info.
+
 To deploy to Heroku:
 
 ```
