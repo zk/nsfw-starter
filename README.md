@@ -1,6 +1,6 @@
 # nsfw-starter
 
-A nsfw webapp.
+A template for NSFW webapps.
 
 
 ## Getting Started
