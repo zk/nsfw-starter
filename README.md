@@ -25,7 +25,7 @@ To deploy to Heroku:
 
 ```
 heroku create
-git push heroku
+git push heroku master
 ```
 
 ## Dev
@@ -36,14 +36,6 @@ Run `bin/dev` to start (allthethings)
 ## Tests
 
 Run `bin/test`
-
-
-## Deploy
-
-1st time:
-
-
-Run `bin/deploy`
 
 
 ## Working on This Repo
