@@ -28,14 +28,12 @@ heroku create
 git push heroku master
 ```
 
+Your 1st deploy to Heroku takes a while, subsequent deploys will be much quicker.
+
+
 ## Dev
 
 Run `bin/dev` to start (allthethings)
-
-
-## Tests
-
-Run `bin/test`
 
 
 ## Working on This Repo
@@ -46,8 +44,3 @@ Run `bin/test`
 * `git merge --squash <feature branch>`
 
 https://sandofsky.com/blog/git-workflow.html
-
-
-## Copyright
-
-Copyright <name here> 2013.
