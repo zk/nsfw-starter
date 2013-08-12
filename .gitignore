@@ -8,7 +8,10 @@ classes
 /.lein-cljsbuild*
 target
 .sass-cache
+.lein-repl-history
 
 /resources/public/css/app.css
-/resources/public/css/nsfw.css
+/resources/public/css/bootstrap.min.css
+/resources/public/css/font-awesome.min.css
+/resources/public/css/app.css
 /resources/public/js/app.js
