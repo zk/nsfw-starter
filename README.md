@@ -21,6 +21,9 @@ cd <project name>
 bin/dev
 ```
 
+Then open up at browser at http://localhost:5000
+
+
 Don't forget to modify this README with your app specific info.
 
 To deploy to Heroku:
