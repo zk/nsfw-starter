@@ -1,5 +1,6 @@
 (ns app
   (:require [nsfw]
+            [nsfw.env :as env]
             [nsfw.html :as html]))
 
 (nsfw/defcomp markdown [opts body]
@@ -19,5 +20,5 @@
 
 (defn -main []
   (nsfw/app :repl-port 7888
-            :server-port 5000
+            :server-port (env/int :port 8080)
             :autoload "src/clj"))
