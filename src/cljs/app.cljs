@@ -4,7 +4,6 @@
 
 (defn rand-color []
   (get [:red :green :blue] (rand 3)))
-(util/lpr (rand-color))
 
 (defn ^:export entry []
   (let [$el ($/query :#dots)]
