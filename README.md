@@ -40,6 +40,10 @@ Your 1st deploy to Heroku takes a while, subsequent deploys will be much quicker
 
 Run `bin/dev` to start (allthethings)
 
+## Launch Checklist
+
+* 404 / 500 pages (see `resources/public/(404|500).html`)
+
 
 ## Working on This Repo
 
