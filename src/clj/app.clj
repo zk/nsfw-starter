@@ -9,7 +9,7 @@
 
 (nsfw/defroute "/"
   home [r]
-  (nsfw/render
+  (nsfw/render-html
    [:head
     [:link {:rel "stylesheet" :href "/css/app.css"}]
     [:title "NSFW Starter!"]]
